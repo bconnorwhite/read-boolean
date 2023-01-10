@@ -2,15 +2,18 @@
   "name": "read-boolean",
   "version": "1.0.0",
   "description": "A simple utility for parsing boolean values from strings.",
-  "main": ".auto/build/index.js",
-  "author": "Connor White",
   "license": "MIT",
   "private": false,
-  "type": "module",
+  "author": "Connor White",
+  "contributors": [
+    "Connor White"
+  ],
+  "homepage": "https://github.com/bconnorwhite/read-boolean#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/read-boolean.git"
   },
+  "bugs": "https://github.com/bconnorwhite/read-boolean/issues",
   "keywords": [
     "read",
     "parse",
@@ -20,6 +23,8 @@
     "convert",
     "cast"
   ],
+  "type": "module",
+  "main": ".auto/build/index.js",
   "exports": "./.auto/build/index.js",
   "types": ".auto/build/index.d.ts",
   "files": [
@@ -38,7 +43,7 @@
     "typecheck": "auto typecheck"
   },
   "devDependencies": {
-    "autorepo": "^0.1.8"
+    "autorepo": "^0.1.9"
   },
   "eslintConfig": {
     "extends": "@autosoft/eslint-config"
