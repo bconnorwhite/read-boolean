@@ -1,6 +1,6 @@
 {
   "name": "read-boolean",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple utility for parsing boolean values from strings.",
   "license": "MIT",
   "private": false,
